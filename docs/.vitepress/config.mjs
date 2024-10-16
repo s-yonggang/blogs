@@ -3,10 +3,10 @@ import { navBar } from './nav-bar.mjs'
 import { sideBar } from './side-bar.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Blog",
-  description: "My Blog",
+  title: "Blogs",
+  description: "My Blogs",
   // assetsDir: 'assets',
-  base: '/blog/',
+  base: '/blogs/',
   lastUpdated: true,
   returnToTopLabel: true,
   markdown: {
@@ -21,7 +21,7 @@ export default defineConfig({
     /** 菜单 */
     sidebar: sideBar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/aa-fish/blog' }
+      { icon: 'github', link: 'https://github.com/s-yonggang/blogs' }
     ]
   }
 })

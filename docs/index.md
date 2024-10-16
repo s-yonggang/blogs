@@ -9,8 +9,8 @@
 layout: home
 
 # hero:
-#   name: "Blog"
-#   text: "My Blog"
+#   name: "Blogs"
+#   text: "My Blogs"
 #   tagline: 弯道快，才是快。谁不会直线加油。
 #   actions:
 #     - theme: brand
