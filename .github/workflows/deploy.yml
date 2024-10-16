@@ -41,7 +41,7 @@ jobs:
         with:
           node-version: 20
           cache: pnpm # 或 pnpm / yarn
-      - name: Setup Pages
+      - name: 依赖构建
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: pnpm install # 或 pnpm install / yarn install / bun install
@@ -55,7 +55,7 @@ jobs:
   # 部署工作
   deploy:
     environment:
-      name: github-pages
+      name: github站点部署
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
