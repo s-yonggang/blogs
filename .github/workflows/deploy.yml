@@ -40,8 +40,6 @@ jobs:
           node-version: 20
           cache: pnpm # 或 pnpm / yarn
       - uses: pnpm/action-setup@v2
-        name: pnpm-install
-        id: pnpm-install
         with:
           version: 8
       - name: Setup Pages
