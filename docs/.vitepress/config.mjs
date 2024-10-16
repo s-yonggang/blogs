@@ -5,7 +5,7 @@ import { sideBar } from './side-bar.mjs'
 export default defineConfig({
   title: "Blogs",
   description: "My Blogs",
-  // assetsDir: 'assets',
+  assetsDir: 'static',
   base: '/blogs/',
   lastUpdated: true,
   returnToTopLabel: true,
