@@ -22,7 +22,6 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: false
-
 jobs:
   # 构建工作
   build:
@@ -49,7 +48,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
-
   # 部署工作
   deploy:
     environment:
