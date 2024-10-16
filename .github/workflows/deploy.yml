@@ -44,7 +44,6 @@ jobs:
         id: pnpm-install
         with:
           version: 8
-          run_install: false
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
