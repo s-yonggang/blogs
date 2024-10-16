@@ -1,5 +1,5 @@
 const navBar = [
-    // { text: 'Home', link: '/' },
+    { text: 'Home', link: '/' },
     // { text: 'Examples', link: '/markdown-examples' },
     { text: '文档组件', link: '/components/index' },
     {
