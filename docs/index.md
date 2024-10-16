@@ -1,10 +1,10 @@
 
 
-![图片](./images/bg.jpg)
-# 弯道快，才是快。谁不会直线加油。
+<!-- ![图片](./images/bg.jpg)
+# 弯道快，才是快。谁不会直线加油。 -->
 
 
-<!-- ---
+---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
@@ -36,7 +36,7 @@ layout: home
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature F
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
---- -->
+---
 
 
 
