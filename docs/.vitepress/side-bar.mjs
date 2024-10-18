@@ -10,6 +10,28 @@ const sideBar = {
         }
     ],
 
+    // '/trials/': [
+    //     {
+    //         text: '试炼之地',
+    //         items: [
+    //             { text: '概述', link: '/trials/index' },
+    //             // { text: 'color组件', link: '/trials/color' },
+    //             // { text: 'Line组件', link: '/trials/line' }
+    //         ]
+    //     }
+    // ],
+
+    // '/magic/': [
+    //     {
+    //         text: '功法神通',
+    //         items: [
+    //             { text: '概述', link: '/magic/index' },
+    //             { text: 'Github Action', link: '/magic/1-1' },
+    //             // { text: 'Line组件', link: '/magic/line' }
+    //         ]
+    //     }
+    // ],
+
     '/data-structure/': [
         {
             text: '数据结构基本概念',
@@ -131,10 +153,10 @@ const sideBar = {
                 // { text: '光线追踪', link: '/3DVisualization/graphics/8-1' },
                 // { text: '光线追踪', link: '/3DVisualization/graphics/9-1' },
                 // { text: '光线追踪', link: '/3DVisualization/graphics/10-1' },
-                { text: '材质外观', link: '/3DVisualization/graphics/11-1' },
-                { text: '相机透视', link: '/3DVisualization/graphics/12-1' },
-                { text: '光场、颜色、感知', link: '/3DVisualization/graphics/13-1' },
-                { text: '动画仿真', link: '/3DVisualization/graphics/14-1' },
+                // { text: '材质外观', link: '/3DVisualization/graphics/11-1' },
+                // { text: '相机透视', link: '/3DVisualization/graphics/12-1' },
+                // { text: '光场、颜色、感知', link: '/3DVisualization/graphics/13-1' },
+                { text: '动画仿真', link: '/3DVisualization/graphics/10-1' },
             ]
         }
     ],

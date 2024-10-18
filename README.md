@@ -1,4 +1,5 @@
 ## AE86上山了！！！
 
 ## 弯道快才是快！
-[](/blog)
+
+[blog文档](https://s-yonggang.github.io/blogs/)

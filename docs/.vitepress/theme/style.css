@@ -223,3 +223,8 @@ body::-webkit-scrollbar-track,
 .vp-doc blockquote > p {
   font-size: 14px;
 }
+
+.VPImage {
+  box-shadow: 10px 10px 8px #123;
+  border-radius: 4px;
+}

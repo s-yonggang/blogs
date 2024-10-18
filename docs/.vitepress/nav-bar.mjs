@@ -1,7 +1,15 @@
 const navBar = [
-    { text: 'Home', link: '/' },
+    { text: 'Blogs首页', link: '/' },
     // { text: 'Examples', link: '/markdown-examples' },
     { text: '文档组件', link: '/components/index' },
+    // {
+    //     text: '龙场悟道',
+    //     items: [
+    //         { text: '经脉资质', link: '/components/index' },
+    //         { text: '试炼之地', link: '/trials/' },
+    //         { text: '功法神通', link: '/magic/' },
+    //     ],
+    // },
     {
         text: '前端文档',
         items: [
@@ -21,6 +29,7 @@ const navBar = [
             },
             {
                 items: [
+                    { text: 'GLSL-es', link: '/3DVisualization/glsl-es/' },
                     { text: 'threeJs', link: '/3DVisualization/threejs/' },
                     { text: 'babylonJs', link: '/3DVisualization/babylonjs/' },
                 ]
