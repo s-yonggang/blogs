@@ -6,7 +6,8 @@ hero:
   text: 
   tagline: 玩到快才是快，谁直线不会加油！
   image:
-    src: ./images/bg.jpg
+    src: /bg.jpg
+    # src: /logo.png
     alt: VitePress
   actions:
     - theme: brand

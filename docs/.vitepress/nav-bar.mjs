@@ -1,5 +1,5 @@
 const navBar = [
-    { text: 'Blogs首页', link: '/' },
+    { text: '首页', link: '/' },
     // { text: 'Examples', link: '/markdown-examples' },
     { text: '文档组件', link: '/components/index' },
     // {
