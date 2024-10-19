@@ -161,6 +161,20 @@ const sideBar = {
         }
     ],
 
+    '/3DVisualization/glsl-es/': [
+        {
+            text: 'GLSL-es',
+            // collapsed: true,
+            items: [
+                { text: 'GLSL基本语法规范', link: '/3DVisualization/glsl-es/' },
+                { text: '基本运算', link: '/3DVisualization/glsl-es/1-1' },
+                { text: '内置函数', link: '/3DVisualization/glsl-es/1-2' },
+                // { text: 'Three', link: '/config/three' },
+                // { text: 'Four', link: '/config/four' }
+            ]
+        }
+    ],
+
     '/3DVisualization/threejs/': [
         {
             text: 'THREE-Geo',
