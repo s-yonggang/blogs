@@ -49,7 +49,6 @@ const navBar = [
             { text: 'typescript', link: '/tools/typescript/' },
             { text: 'vite', link: '/tools/vite/' },
             { text: 'webpack', link: '/tools/webpack/' },
-
         ]
     },
     {

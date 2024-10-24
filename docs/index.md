@@ -11,28 +11,28 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: ThreeJS
+      text: Canvas-demo1
+      link: https://s-yonggang.github.io/magic-canvas/#/demo-1
+    - theme: brand
+      text: Canvas-demo2
+      link: https://s-yonggang.github.io/magic-canvas/#/demo-2
+    - theme: brand
+      text: Canvas-demo3
+      link: https://s-yonggang.github.io/magic-canvas/#/demo-3
+    - theme: brand
+      text: Canvas-demo4
+      link: https://s-yonggang.github.io/magic-canvas/#/demo-4
+    - theme: alt
+      text: ThreeJS-demo  ing...
       link: /
     - theme: alt
-      text: SVG-demo1
+      text: SVG-demo1 ing...
       link: /
     - theme: alt
-      text: SVG-demo2
+      text: SVG-demo2 ing...
       link: /
     - theme: alt
-      text: SVG-demo3
-      link: /
-    - theme: alt
-      text: SVG-demo4
-      link: /
-    - theme: alt
-      text: SVG-demo5
-      link: /
-    - theme: alt
-      text: SVG-demo6
-      link: /
-    - theme: alt
-      text: SVG-demo7
+      text: SVG-demo3 ing...
       link: /
     - theme: alt
       text: ......
