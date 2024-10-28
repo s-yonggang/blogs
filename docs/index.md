@@ -23,11 +23,11 @@ hero:
       text: Canvas-demo4
       link: https://s-yonggang.github.io/magic-canvas/#/demo-4
     - theme: alt
-      text: ThreeJS-demo  ing...
-      link: /
+      text: ThreeJS-demo-scan
+      link: https://s-yonggang.github.io/s-three/#/scan
     - theme: alt
       text: SVG-demo1 ing...
-      link: /
+      link: https://s-yonggang.github.io/s-three/#/energy
     - theme: alt
       text: SVG-demo2 ing...
       link: /
