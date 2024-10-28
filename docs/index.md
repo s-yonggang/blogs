@@ -22,10 +22,10 @@ hero:
     - theme: brand
       text: Canvas-demo4
       link: https://s-yonggang.github.io/magic-canvas/#/demo-4
-    - theme: alt
+    - theme: brand
       text: ThreeJS-demo-scan
       link: https://s-yonggang.github.io/s-three/#/scan
-    - theme: alt
+    - theme: brand
       text: SVG-demo1 ing...
       link: https://s-yonggang.github.io/s-three/#/energy
     - theme: alt
