@@ -26,7 +26,7 @@ hero:
       text: ThreeJS-demo-scan
       link: https://s-yonggang.github.io/s-three/#/scan
     - theme: brand
-      text: SVG-demo1 ing...
+      text: ThreeJS-demo-energy
       link: https://s-yonggang.github.io/s-three/#/energy
     - theme: alt
       text: SVG-demo2 ing...

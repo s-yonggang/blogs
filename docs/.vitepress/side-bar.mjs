@@ -166,9 +166,11 @@ const sideBar = {
             text: 'GLSL-es',
             // collapsed: true,
             items: [
-                { text: 'GLSL基本语法规范', link: '/3DVisualization/glsl-es/' },
-                { text: '基本运算', link: '/3DVisualization/glsl-es/1-1' },
-                { text: '内置函数', link: '/3DVisualization/glsl-es/1-2' },
+                { text: '顶点/片元着色器', link: '/3DVisualization/glsl-es/' },
+                { text: 'GLSL基本语法规范', link: '/3DVisualization/glsl-es/1-1' },
+                { text: '基本运算', link: '/3DVisualization/glsl-es/1-2' },
+                { text: '内置变量', link: '/3DVisualization/glsl-es/1-3' },
+                { text: '内置函数', link: '/3DVisualization/glsl-es/1-4' },
                 // { text: 'Three', link: '/config/three' },
                 // { text: 'Four', link: '/config/four' }
             ]
