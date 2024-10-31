@@ -28,6 +28,9 @@ hero:
     - theme: brand
       text: ThreeJS-demo-energy
       link: https://s-yonggang.github.io/s-three/#/energy
+    - theme: brand
+      text: ThreeJS-demo-eclipse
+      link: https://s-yonggang.github.io/s-three/#/eclipse
     - theme: alt
       text: SVG-demo2 ing...
       link: /

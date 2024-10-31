@@ -197,9 +197,9 @@ const sideBar = {
             text: 'THREE-Light',
             // collapsed: true,
             items: [
-                { text: 'Index', link: '/config/' },
-                { text: 'Three', link: '/config/three' },
-                { text: 'Four', link: '/config/four' }
+                { text: '光/阴影', link: '/3DVisualization/threejs/LightAndShadow' },
+                // { text: 'Three', link: '/config/three' },
+                // { text: 'Four', link: '/config/four' }
             ]
         },
         {
