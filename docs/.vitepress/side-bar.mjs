@@ -10,16 +10,16 @@ const sideBar = {
         }
     ],
 
-    // '/trials/': [
-    //     {
-    //         text: '试炼之地',
-    //         items: [
-    //             { text: '概述', link: '/trials/index' },
-    //             // { text: 'color组件', link: '/trials/color' },
-    //             // { text: 'Line组件', link: '/trials/line' }
-    //         ]
-    //     }
-    // ],
+    '/explore/': [
+        {
+            text: '探索',
+            items: [
+                { text: '概述', link: '/explore/index' },
+                { text: 'explore', link: '/explore/1-1.md' },
+                // { text: 'Line组件', link: '/trials/line' }
+            ]
+        }
+    ],
 
     // '/magic/': [
     //     {

@@ -31,6 +31,9 @@ hero:
     - theme: brand
       text: ThreeJS-demo-eclipse
       link: https://s-yonggang.github.io/s-three/#/eclipse
+    - theme: brand
+      text: ThreeJS-demo-mountain
+      link: https://s-yonggang.github.io/s-three/#/mountain
     - theme: alt
       text: SVG-demo2 ing...
       link: /
