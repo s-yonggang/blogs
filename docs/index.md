@@ -25,6 +25,7 @@ hero:
     - theme: brand
       text: ThreeJS-demo-particle
       link: https://s-yonggang.github.io/s-three/#/particle
+    - theme: brand
       text: ThreeJS-demo-scan
       link: https://s-yonggang.github.io/s-three/#/scan
     - theme: brand
