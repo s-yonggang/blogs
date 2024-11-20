@@ -23,6 +23,8 @@ hero:
       text: Canvas-demo4
       link: https://s-yonggang.github.io/magic-canvas/#/demo-4
     - theme: brand
+      text: ThreeJS-demo-particle
+      link: https://s-yonggang.github.io/s-three/#/particle
       text: ThreeJS-demo-scan
       link: https://s-yonggang.github.io/s-three/#/scan
     - theme: brand
