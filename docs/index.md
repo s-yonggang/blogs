@@ -23,19 +23,22 @@ hero:
       text: Canvas-demo4
       link: https://s-yonggang.github.io/magic-canvas/#/demo-4
     - theme: brand
-      text: ThreeJS-demo-particle
+      text: ThreeJS-particle
       link: https://s-yonggang.github.io/s-three/#/particle
     - theme: brand
-      text: ThreeJS-demo-scan
+      text: ThreeJS-modelviewer
+      link: https://s-yonggang.github.io/s-three/#/modelviewer
+    - theme: brand
+      text: ThreeJS-scan
       link: https://s-yonggang.github.io/s-three/#/scan
     - theme: brand
-      text: ThreeJS-demo-energy
+      text: ThreeJS-energy
       link: https://s-yonggang.github.io/s-three/#/energy
     - theme: brand
-      text: ThreeJS-demo-eclipse
+      text: ThreeJS-eclipse
       link: https://s-yonggang.github.io/s-three/#/eclipse
     - theme: brand
-      text: ThreeJS-demo-mountains
+      text: ThreeJS-mountains
       link: https://s-yonggang.github.io/s-three/#/mountains
     - theme: alt
       text: SVG-demo2 ing...
