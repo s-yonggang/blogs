@@ -23,6 +23,9 @@ hero:
       text: Canvas-demo4
       link: https://s-yonggang.github.io/magic-canvas/#/demo-4
     - theme: brand
+      text: ThreeJS-modelControl
+      link: https://s-yonggang.github.io/s-three/#/modelControl
+    - theme: brand
       text: ThreeJS-particle
       link: https://s-yonggang.github.io/s-three/#/particle
     - theme: brand
