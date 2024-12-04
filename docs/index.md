@@ -71,17 +71,17 @@ hero:
 
 <card-list :data="[
   {title:'Three.js-demo'},
-  {img:'./images/three-demo1.png',title:'ThreeJs-demo1',link: 'https://s-yonggang.github.io/s-three/#/modelControl'},
-  {img:'./images/three-demo2.png',title:'ThreeJs-demo2',link: 'https://s-yonggang.github.io/s-three/#/modelviewer'},
-  {img:'./images/three-demo3.png',title:'ThreeJs-demo3',link: 'https://s-yonggang.github.io/s-three/#/particle'},
-  {img:'./images/three-demo4.png',title:'ThreeJs-demo4',link: 'https://s-yonggang.github.io/s-three/#/eclipse'},
+  {img:'./three-demo1.png',title:'ThreeJs-demo1',link: 'https://s-yonggang.github.io/s-three/#/modelControl'},
+  {img:'./three-demo2.png',title:'ThreeJs-demo2',link: 'https://s-yonggang.github.io/s-three/#/modelviewer'},
+  {img:'./three-demo3.png',title:'ThreeJs-demo3',link: 'https://s-yonggang.github.io/s-three/#/particle'},
+  {img:'./three-demo4.png',title:'ThreeJs-demo4',link: 'https://s-yonggang.github.io/s-three/#/eclipse'},
 ]"/>
 
 <card-list :data="[
   {title:'Canvas-demo'},
-  {img:'./images/canvas-demo1.png',title:'Canvas-demo1',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-1'},
-  {img:'./images/canvas-demo2.png',title:'Canvas-demo1',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-2'},
-  {img:'./images/canvas-demo3.png',title:'Canvas-demo2',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-3'},
-  {img:'./images/canvas-demo4.png',title:'Canvas-demo3',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-4'},
+  {img:'./canvas-demo1.png',title:'Canvas-demo1',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-1'},
+  {img:'./canvas-demo2.png',title:'Canvas-demo1',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-2'},
+  {img:'./canvas-demo3.png',title:'Canvas-demo2',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-3'},
+  {img:'./canvas-demo4.png',title:'Canvas-demo3',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-4'},
 ]"/>
 
