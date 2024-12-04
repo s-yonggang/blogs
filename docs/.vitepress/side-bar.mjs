@@ -104,7 +104,7 @@ const sideBar = {
             ]
         }
     ],
-    
+
     '/3DVisualization/linear-algebra': [
         {
             text: '线性代数',
@@ -179,8 +179,8 @@ const sideBar = {
 
     '/3DVisualization/threejs/': [
         {
-            text: 'THREE-Geo',
-            // collapsed: true,
+            text: 'THREE-Geometry',
+            collapsed: true,
             items: [
                 { text: 'BufferGeometry', link: '3DVisualization/threejs/BufferGeometry' },
                 { text: 'Point', link: '3DVisualization/threejs/point' },
@@ -191,6 +191,21 @@ const sideBar = {
                 { text: 'ExtrudeGeometry', link: '3DVisualization/threejs/ExtrudeGeometry' },
                 { text: 'TubeGeometry', link: '3DVisualization/threejs/TubeGeometry' },
                 { text: 'LatheGeometry', link: '3DVisualization/threejs/LatheGeometry' }
+            ]
+        },
+        {
+            text: 'THREE-material',
+            collapsed: true,
+            items: [
+                // { text: 'BufferGeometry', link: '3DVisualization/threejs/BufferGeometry' },
+                // { text: 'Point', link: '3DVisualization/threejs/point' },
+                // { text: 'Curve', link: '3DVisualization/threejs/line' },
+                // { text: 'Path', link: '3DVisualization/threejs/path' },
+                // { text: 'Shape', link: '3DVisualization/threejs/shape' },
+                // { text: 'ShapeGeometry', link: '3DVisualization/threejs/shapeGeometry' },
+                // { text: 'ExtrudeGeometry', link: '3DVisualization/threejs/ExtrudeGeometry' },
+                // { text: 'TubeGeometry', link: '3DVisualization/threejs/TubeGeometry' },
+                // { text: 'LatheGeometry', link: '3DVisualization/threejs/LatheGeometry' }
             ]
         },
         {
@@ -406,7 +421,7 @@ const sideBar = {
                 { text: 'V8与JIT', link: '/web-optimization/GC/1-2' },
                 { text: 'V8 的GC', link: '/web-optimization/GC/1-3' },
                 { text: 'V8 的并发标记', link: '/web-optimization/GC/1-4' },
-               
+
             ]
         },
         {

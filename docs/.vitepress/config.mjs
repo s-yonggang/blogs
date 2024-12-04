@@ -3,8 +3,8 @@ import { navBar } from './nav-bar.mjs'
 import { sideBar } from './side-bar.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Blogs",
-  description: "My Blogs",
+  title: "Blog",
+  description: "My Blog",
   assetsDir: 'static',
   base: '/blogs/',
   lastUpdated: true,
@@ -22,6 +22,10 @@ export default defineConfig({
     sidebar: sideBar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/s-yonggang/blogs' }
-    ]
+    ],
+    docFooter: { //上下篇文本
+      prev: '上一篇',
+      next: '下一篇'
+    },
   }
 })

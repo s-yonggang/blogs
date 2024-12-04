@@ -15,27 +15,47 @@
 通过threejs的属性缓冲区对象`BufferAttribute` (opens new window)表示threejs几何体顶点数据。
 ```js
 const geometry = new THREE.BufferGeometry();
-const vertices = new Float32Array( [
-	-1.0, -1.0,  1.0,
-	 1.0, -1.0,  1.0,
-	 1.0,  1.0,  1.0,
 
-	 1.0,  1.0,  1.0,
-	-1.0,  1.0,  1.0,
-	-1.0, -1.0,  1.0
+// 顶点
+const vertices = new Float32Array( [
+	-1.0, -1.0, 1.0,
+	 1.0, -1.0, 1.0,
+	 1.0,  1.0, 1.0,
+
+	 1.0,  1.0, 1.0,
+	-1.0,  1.0, 1.0,
+	-1.0, -1.0, 1.0
 ] );
+
+// 顶点颜色（rgba）
+const colors = new Float32Array([
+    1.0, 0.0, 0.0,
+    0.0, 1.0, 0.0,
+    0.0, 0.0, 1.0,
+
+    1.0, 0.0, 0.0,
+    0.0, 1.0, 0.0,
+    0.0, 0.0, 1.0,
+])
+
 geometry.setAttribute( 'position', new THREE.BufferAttribute( vertices, 3 ) );
-const material = new THREE.MeshBasicMaterial( { color: 0xff0000 } );
+geometry.setAttribute( 'color', new THREE.BufferAttribute( colors, 3 ) );
+const material = new THREE.MeshBasicMaterial( { 
+    vertexColors: true, // 使用顶点颜色属性
+    wireframe: true
+} );
 const mesh = new THREE.Mesh( geometry, material );
 ```
 
-## geometry.attributes.position
+## geometry.attributes
 也可以通过`geometry.attributes.position`设置几何体顶点位置属性的值BufferAttribute。
 ```js
 geometry.attributes.position = new THREE.BufferAttribute( vertices, 3 )
 ```
 
+
 ## setFromPoints(points : Array)
+- 通过点队列设置该 BufferGeometry 的 attribute。
 - 是几何体BufferGeometry的一个方法，通过该方法可以把数组pointsArr中坐标数据提取出来赋值给几何体`geometry.attributes.position`;
 - 用向量Vector3 | Vector2 作为一组顶点坐标;
 ```js
