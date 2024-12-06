@@ -37,7 +37,7 @@ function onClick(item) {
 .card-list .container {
   margin: 0 auto;
   max-width: 1152px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .item-wrap {
@@ -51,14 +51,15 @@ function onClick(item) {
 .card-list .container .item {
   position: relative;
   text-align: center;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .card-list .container .item:hover .item-title {
-
-  opacity: 0.8;
+  opacity: 0;
 }
 
 .card-list .container .item img {
+  width: 100%;
   border-radius: 4px;
 }
 
@@ -85,13 +86,15 @@ function onClick(item) {
     gap: 24px;
   }
 }
-@media (min-width: 390px) {
+
+@media (min-width: 480px) {
   .item-wrap {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 }
+
 @media (min-width: 640px) {
   .item-wrap {
     display: grid;
@@ -99,6 +102,7 @@ function onClick(item) {
     gap: 24px;
   }
 }
+
 @media (min-width: 960px) {
   .item-wrap {
     display: grid;
@@ -114,6 +118,7 @@ function onClick(item) {
     padding: 0 48px;
   }
 }
+
 @media (min-width: 960px) {
   .card-list {
     padding: 0 64px;

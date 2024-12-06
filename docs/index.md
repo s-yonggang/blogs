@@ -3,22 +3,21 @@ layout: home
 
 hero:
   name: Blog
-  text: 
+  text: ...
   tagline: 世间美妙的事物有很多，其中要数编程和数学。
   image:
     src: /bg.jpg
-    # src: /logo.png
     alt: VitePress
-  actions:
-    - theme: alt
-      text: ......
-      link: /
-    - theme: alt
-      text: ......
-      link: /
-    - theme: alt
-      text: ......
-      link: /
+  # actions:
+  #   - theme: alt
+  #     text: ......
+  #     link: /
+  #   - theme: alt
+  #     text: ......
+  #     link: /
+  #   - theme: alt
+  #     text: ......
+  #     link: /
     # - theme: brand
     #   text: Canvas-demo1
     #   link: https://s-yonggang.github.io/magic-canvas/#/demo-1
@@ -52,9 +51,9 @@ hero:
     # - theme: brand
     #   text: ThreeJS-mountains
     #   link: https://s-yonggang.github.io/s-three/#/mountains
-    - theme: alt
-      text: ......
-      link: /
+    # - theme: alt
+    #   text: ......
+    #   link: /
 # features: 
 #   - icon: 2
 #     title: Vite, The DX that can't be beat 
