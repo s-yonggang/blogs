@@ -55,12 +55,13 @@ function onClick(item) {
 }
 
 .card-list .container .item:hover .item-title {
-  opacity: 0;
+  opacity: 0.5;
 }
 
 .card-list .container .item img {
   width: 100%;
   border-radius: 4px;
+  border: 1px solid var(--vp-c-white);
 }
 
 .card-list .container .item-title {
@@ -74,7 +75,7 @@ function onClick(item) {
   align-items: center;
   transform: translate(-50%, -50%);
   background-color: var(--vp-c-bg);
-  opacity: 0.5;
+  opacity: 0;
   cursor: pointer;
   transition: opacity 0.3s;
 }
@@ -82,7 +83,7 @@ function onClick(item) {
 @media (min-width: 180px) {
   .item-wrap {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: (1, 1fr);
     gap: 24px;
   }
 }
@@ -90,7 +91,7 @@ function onClick(item) {
 @media (min-width: 480px) {
   .item-wrap {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: (2, 1fr);
     gap: 24px;
   }
 }
@@ -98,7 +99,7 @@ function onClick(item) {
 @media (min-width: 640px) {
   .item-wrap {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: (3, 1fr);
     gap: 24px;
   }
 }
@@ -106,10 +107,9 @@ function onClick(item) {
 @media (min-width: 960px) {
   .item-wrap {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: (5, 1fr);
     gap: 24px;
   }
-
 }
 
 
