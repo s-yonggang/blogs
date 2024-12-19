@@ -5,7 +5,7 @@
 3. 设置光源（非常重要，直接关系效果--细节、光类型）
 4. 设置renderder渲染模式。
 
-可以 three.js 辅助函数
+> 可以利用 three.js 辅助工具helper调试。
 
 ```javascript
 //Create a WebGLRenderer and turn on shadows in the renderer

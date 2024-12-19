@@ -75,6 +75,7 @@ hero:
   {img:'./three-demo3.png',title:'ThreeJs-demo3',link: 'https://s-yonggang.github.io/s-three/#/particle'},
   {img:'./three-demo4.png',title:'ThreeJs-demo4',link: 'https://s-yonggang.github.io/s-three/#/eclipse'},
   {img:'./three-demo5.png',title:'ThreeJs-WebGPU Point',link: 'https://s-yonggang.github.io/s-three/#/gpuPoint'},
+  {img:'./three-demo6.png',title:'ThreeJs-customizeShader1',link: 'https://s-yonggang.github.io/s-three/#/customizeShader1'},
 ]"/>
 
 <card-list :data="[

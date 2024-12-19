@@ -197,7 +197,8 @@ const sideBar = {
             text: 'THREE-material',
             collapsed: true,
             items: [
-                // { text: 'BufferGeometry', link: '3DVisualization/threejs/BufferGeometry' },
+                { text: '材质', link: '3DVisualization/threejs/material' },
+                { text: 'RawShaderMaterial', link: '3DVisualization/threejs/RawShaderMaterial' },
                 // { text: 'Point', link: '3DVisualization/threejs/point' },
                 // { text: 'Curve', link: '3DVisualization/threejs/line' },
                 // { text: 'Path', link: '3DVisualization/threejs/path' },

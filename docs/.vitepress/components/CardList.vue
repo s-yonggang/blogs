@@ -6,7 +6,7 @@
         <template v-for="item in data" :key="item.title">
           <div class="item" @click="onClick(item)" v-if="item.img">
             <img :src="item.img" alt="">
-            <div class="item-title">{{ item.title }}</div>
+            <!-- <div class="item-title">{{ item.title }}</div> -->
           </div>
         </template>
       </div>
@@ -78,6 +78,7 @@ function onClick(item) {
   opacity: 0;
   cursor: pointer;
   transition: opacity 0.3s;
+  font-size: 0.5em;
 }
 
 @media (min-width: 180px) {
