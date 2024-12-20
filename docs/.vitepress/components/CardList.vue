@@ -62,6 +62,7 @@ function onClick(item) {
   width: 100%;
   border-radius: 4px;
   border: 1px solid var(--vp-c-white);
+  cursor: pointer;
 }
 
 .card-list .container .item-title {
@@ -83,32 +84,28 @@ function onClick(item) {
 
 @media (min-width: 180px) {
   .item-wrap {
-    display: grid;
-    grid-template-columns: (1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 24px;
   }
 }
 
 @media (min-width: 480px) {
   .item-wrap {
-    display: grid;
-    grid-template-columns: (2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 }
 
 @media (min-width: 640px) {
   .item-wrap {
-    display: grid;
-    grid-template-columns: (3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
   }
 }
 
 @media (min-width: 960px) {
   .item-wrap {
-    display: grid;
-    grid-template-columns: (5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
   }
 }
