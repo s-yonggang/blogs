@@ -171,7 +171,7 @@ const sideBar = {
                 { text: '基本运算', link: '/3DVisualization/glsl-es/1-2' },
                 { text: '内置变量', link: '/3DVisualization/glsl-es/1-3' },
                 { text: '内置函数', link: '/3DVisualization/glsl-es/1-4' },
-                // { text: 'Three', link: '/config/three' },
+                { text: '造型函数进阶', link: '/3DVisualization/glsl-es/1-5' },
                 // { text: 'Four', link: '/config/four' }
             ]
         }
@@ -197,8 +197,9 @@ const sideBar = {
             text: 'THREE-material',
             collapsed: true,
             items: [
-                { text: '材质', link: '3DVisualization/threejs/material' },
-                { text: 'RawShaderMaterial', link: '3DVisualization/threejs/RawShaderMaterial' },
+                { text: '材质', link: '3DVisualization/threejs/material/Material' },
+                { text: 'ShaderMaterial', link: '3DVisualization/threejs/material/ShaderMaterial' },
+                { text: 'RewShaderMaterial', link: '3DVisualization/threejs/material/RewShaderMaterial' },
                 // { text: 'Point', link: '3DVisualization/threejs/point' },
                 // { text: 'Curve', link: '3DVisualization/threejs/line' },
                 // { text: 'Path', link: '3DVisualization/threejs/path' },
