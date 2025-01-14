@@ -164,7 +164,7 @@ const sideBar = {
     '/3DVisualization/glsl-es/': [
         {
             text: 'GLSL-es',
-            // collapsed: true,
+            collapsed: true,
             items: [
                 { text: '顶点/片元着色器', link: '/3DVisualization/glsl-es/' },
                 { text: 'GLSL基本语法规范', link: '/3DVisualization/glsl-es/1-1' },
@@ -173,6 +173,27 @@ const sideBar = {
                 { text: '内置函数', link: '/3DVisualization/glsl-es/1-4' },
                 { text: '造型函数进阶', link: '/3DVisualization/glsl-es/1-5' },
                 // { text: 'Four', link: '/config/four' }
+            ]
+        },
+        {
+            text: '疑难杂症',
+            collapsed: true,
+            items: [
+                { text: 'glsl+vue3+vite+ts', link: '/3DVisualization/glsl-es/2-1' },
+                { text: 'glsl 语言风格', link: '/3DVisualization/glsl-es/2-2' },
+                { text: 'glsl 插件安装', link: '/3DVisualization/glsl-es/2-3' },
+            ]
+        },
+        {
+            text: 'The Book of Shaders',
+            collapsed: true,
+            items: [
+                { text: 'Fragment Shader', link: '/3DVisualization/glsl-es/3-1' },
+                { text: '基础要点', link: '/3DVisualization/glsl-es/3-2' },
+                { text: 'Uniforms', link: '/3DVisualization/glsl-es/3-3' },
+                { text: 'Attribute', link: '/3DVisualization/glsl-es/3-4' },
+                { text: 'Texture', link: '/3DVisualization/glsl-es/3-5' },
+                { text: 'Transform Feedback', link: '/3DVisualization/glsl-es/3-6' },
             ]
         }
     ],
@@ -260,6 +281,7 @@ const sideBar = {
             collapsed: false,
             items: [
                 { text: '字符编码', link: '/web-core/base/index' },
+                { text: '像素', link: '/web-core/base/1-13' },
                 { text: 'String', link: '/web-core/base/1-1' },
                 { text: 'Boolean', link: '/web-core/base/1-2' },
                 { text: 'Number', link: '/web-core/base/1-3' },
