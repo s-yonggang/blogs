@@ -1,7 +1,7 @@
 const navBar = [
     { text: '首页', link: '/' },
     // { text: 'Examples', link: '/markdown-examples' },
-    { text: '文档组件', link: '/components/index' },
+
     // {
     //     text: '龙场悟道',
     //     items: [
@@ -10,14 +10,6 @@ const navBar = [
     //         { text: '功法神通', link: '/magic/' },
     //     ],
     // },
-    {
-        text: '前端文档',
-        items: [
-            { text: '基础核心', link: '/web-core/base/' },
-            { text: '函数编程', link: '/web-core/advanced/' },
-            { text: 'ES+规范', link: '/web-core/es6/' },
-        ]
-    },
     {
         text: 'web可视化',
         items: [
@@ -30,8 +22,8 @@ const navBar = [
             {
                 items: [
                     { text: 'GLSL-es', link: '/3DVisualization/glsl-es/' },
-                    { text: 'threeJs', link: '/3DVisualization/threejs/' },
-                    { text: 'babylonJs', link: '/3DVisualization/babylonjs/' },
+                    // { text: 'threeJs', link: '/3DVisualization/threejs/' },
+                    // { text: 'babylonJs', link: '/3DVisualization/babylonjs/' },
                 ]
             },
             {
@@ -40,6 +32,14 @@ const navBar = [
                     { text: 'Canvas', link: '/3DVisualization/Canvas/' }
                 ]
             }
+        ]
+    },
+    {
+        text: '前端文档',
+        items: [
+            { text: '基础核心', link: '/web-core/base/' },
+            { text: '函数编程', link: '/web-core/advanced/' },
+            { text: 'ES+规范', link: '/web-core/es6/' },
         ]
     },
     {
@@ -66,6 +66,7 @@ const navBar = [
             { text: '设计模式', link: '/design-patterns/index' },
         ]
     },
+    { text: '文档组件', link: '/components/index' },
 ]
 
 export { navBar }

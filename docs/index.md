@@ -1,13 +1,13 @@
 ---
 layout: home
 
-hero:
-  name: Blog
-  text: ...
-  tagline: 世间美妙的事物有很多，其中要数编程和数学。
-  image:
-    src: /bg.jpg
-    alt: VitePress
+# hero:
+#   name: Blog
+#   text: ...
+#   tagline: 世间美妙的事物有很多，其中要数编程和数学。
+#   image:
+#     src: /bg.jpg
+#     alt: VitePress
   # actions:
   #   - theme: alt
   #     text: ......
@@ -67,19 +67,22 @@ hero:
 #     details: Lorem ipsum...
 ---
 
+<GLSLCanvas />
 
 <card-list :data="[
-  {title:'Three.js-demo'},
+  {title:''},
   {img:'./three-demo1.png',title:'ThreeJs-demo1',link: 'https://s-yonggang.github.io/s-three/#/modelControl'},
   {img:'./three-demo2.png',title:'ThreeJs-demo2',link: 'https://s-yonggang.github.io/s-three/#/modelviewer'},
   {img:'./three-demo3.png',title:'ThreeJs-demo3',link: 'https://s-yonggang.github.io/s-three/#/particle'},
   {img:'./three-demo4.png',title:'ThreeJs-demo4',link: 'https://s-yonggang.github.io/s-three/#/eclipse'},
   {img:'./three-demo5.png',title:'ThreeJs-WebGPU Point',link: 'https://s-yonggang.github.io/s-three/#/gpuPoint'},
   {img:'./three-demo6.png',title:'ThreeJs-customizeShader1',link: 'https://s-yonggang.github.io/s-three/#/customizeShader1'},
+  {img:'./three-demo.png',title:'ThreeJs-customizeShader1',link: 'https://s-yonggang.github.io/s-three/#/shader-base-1'},
+  {img:'./three-demo.png',title:'ThreeJs-customizeShader1',link: 'https://s-yonggang.github.io/s-three/#/shader-base-2'},
 ]"/>
 
 <card-list :data="[
-  {title:'Canvas-demo'},
+  {title:''},
   {img:'./canvas-demo1.png',title:'Canvas-demo1',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-1'},
   {img:'./canvas-demo2.png',title:'Canvas-demo1',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-2'},
   {img:'./canvas-demo3.png',title:'Canvas-demo2',link: 'https://s-yonggang.github.io/magic-canvas/#/demo-3'},

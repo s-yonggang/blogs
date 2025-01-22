@@ -26,7 +26,7 @@ function onClick(item) {
 .card-list {
   padding: 0 24px;
   width: 100%;
-  margin-bottom: 48px;
+  margin-top: 48px;
 }
 
 .card-list h2 {
@@ -63,6 +63,7 @@ function onClick(item) {
   border-radius: 4px;
   border: 1px solid var(--vp-c-white);
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .card-list .container .item-title {

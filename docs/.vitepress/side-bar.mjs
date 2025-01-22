@@ -5,7 +5,9 @@ const sideBar = {
             items: [
                 { text: '概述', link: '/components/index' },
                 { text: 'color组件', link: '/components/color' },
-                { text: 'Line组件', link: '/components/line' }
+                { text: 'Line组件', link: '/components/line' },
+                { text: '数学公式', link: '/components/maths' },
+                { text: 'shader插件', link: '/components/glsl' },
             ]
         }
     ],
@@ -171,7 +173,7 @@ const sideBar = {
                 { text: '基本运算', link: '/3DVisualization/glsl-es/1-2' },
                 { text: '内置变量', link: '/3DVisualization/glsl-es/1-3' },
                 { text: '内置函数', link: '/3DVisualization/glsl-es/1-4' },
-                { text: '造型函数进阶', link: '/3DVisualization/glsl-es/1-5' },
+                // { text: '造型函数进阶', link: '/3DVisualization/glsl-es/1-5' },
                 // { text: 'Four', link: '/config/four' }
             ]
         },
@@ -181,19 +183,20 @@ const sideBar = {
             items: [
                 { text: 'glsl+vue3+vite+ts', link: '/3DVisualization/glsl-es/2-1' },
                 { text: 'glsl 语言风格', link: '/3DVisualization/glsl-es/2-2' },
-                { text: 'glsl 插件安装', link: '/3DVisualization/glsl-es/2-3' },
+                { text: '运行shader的插件工具', link: '/3DVisualization/glsl-es/2-3' },
             ]
         },
         {
             text: 'The Book of Shaders',
             collapsed: true,
             items: [
-                { text: 'Fragment Shader', link: '/3DVisualization/glsl-es/3-1' },
+                { text: '片元着色器', link: '/3DVisualization/glsl-es/3-1' },
                 { text: '基础要点', link: '/3DVisualization/glsl-es/3-2' },
                 { text: 'Uniforms', link: '/3DVisualization/glsl-es/3-3' },
-                { text: 'Attribute', link: '/3DVisualization/glsl-es/3-4' },
-                { text: 'Texture', link: '/3DVisualization/glsl-es/3-5' },
-                { text: 'Transform Feedback', link: '/3DVisualization/glsl-es/3-6' },
+                { text: 'ThreeJs与shader', link: '/3DVisualization/glsl-es/3-4' },
+                { text: '绘画算法', link: '/3DVisualization/glsl-es/3-5' },
+                { text: '颜色', link: '/3DVisualization/glsl-es/3-6' },
+                { text: '形状', link: '/3DVisualization/glsl-es/3-7' },
             ]
         }
     ],

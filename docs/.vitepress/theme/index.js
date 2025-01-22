@@ -7,6 +7,9 @@ import ColorList from '../components/ColorList.vue'
 import Lines from '../components/Lines.vue'
 import Tag from '../components/Tag.vue'
 import CardList from '../components/CardList.vue'
+import GLSLCanvas from '../components/GLSLCanvas.vue'
+
+
 import Layout from './Layout.vue'
 
 
@@ -32,6 +35,7 @@ export default {
     app.component('Lines', Lines)
     app.component('Tag', Tag)
     app.component('CardList', CardList)
+    app.component('GLSLCanvas', GLSLCanvas)
   },
   setup() {
     const route = useRoute()
