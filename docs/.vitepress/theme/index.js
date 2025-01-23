@@ -7,6 +7,7 @@ import ColorList from '../components/ColorList.vue'
 import Lines from '../components/Lines.vue'
 import Tag from '../components/Tag.vue'
 import CardList from '../components/CardList.vue'
+import Banner from '../components/Banner.vue'
 import GLSLCanvas from '../components/GLSLCanvas.vue'
 
 
@@ -35,6 +36,7 @@ export default {
     app.component('Lines', Lines)
     app.component('Tag', Tag)
     app.component('CardList', CardList)
+    app.component('Banner', Banner)
     app.component('GLSLCanvas', GLSLCanvas)
   },
   setup() {

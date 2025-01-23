@@ -1,57 +1,94 @@
 <template>
-  <div class="canvas-wrapper" ref="canvasWrapperRef">
-    <div class="transmission" @click="onTransmission">传送</div>
+  <div class="glsl-wrapper" :class="{'canvas-wrapper': once}" ref="canvasWrapperRef" v-if="initCode==1 || !once">
+    <div class="transmission" @click="onEnter" v-if="once">传送</div>
     <canvas id="canvas" ref="canvasRef"></canvas>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue';
-// import glslCanvas from 'glslCanvas';
-import { glslCode1, glslCode2, glslCode3 } from '../GLSL/index';
-
-let sandbox = null;
+import glslCode from '../GLSL/index';
+const { ratioHeight, cases, once } = defineProps(["ratioHeight", "cases", "once"]);
 const canvasRef = ref(null);
 const canvasWrapperRef = ref(null);
+const glslId = "glslScript";
 
-function onTransmission() {
-  sandbox.destroy();
-  canvasWrapperRef.value.style.opacity = 0;
-  canvasWrapperRef.value.style.zIndex = -99;
+let initCode = ref(null);
+let gScript = null;
+let glslSandbox = null;
+let hasGlsl = null; // 1：无 2：有
+
+if (typeof window !== "undefined") {
+  hasGlsl = sessionStorage.getItem('hasGlsl') || 1;
+  initCode.value = sessionStorage.getItem('initCode') || 1;
+
+  sessionStorage.setItem('hasGlsl', hasGlsl);
+  sessionStorage.setItem('initCode', initCode.value);
+}
+
+const onEnter = () => {
+  sessionStorage.setItem('initCode', 2)
+  initCode.value = sessionStorage.getItem('initCode')
+  window.removeEventListener("resize", glslResize);
+  glslSandbox?.destroy();
+}
+
+function glslResize() {
+  glslSandbox?.destroy();
+  initCanvas();
+}
+
+function loadGlsl() {
+  gScript = window.document.createElement('script');
+  gScript.type = 'text/javascript';
+  gScript.src = '/local-cdn/glslCanvas@0.2.5.min.js';
+  gScript.id = glslId;
+  document.body.appendChild(gScript);
+  gScript.addEventListener('load', () => {
+    if (initCode.value == 1 || !once) {
+      initCanvas()
+    }
+  });
+}
+
+function initCanvas() {
+  const c = canvasRef.value;
+  const width = canvasWrapperRef.value.offsetWidth;
+  const height = canvasWrapperRef.value.offsetHeight;
+  c.width = width;
+  c.height = width > height ? width / ratioHeight : width;
+  glslSandbox = new GlslCanvas(c);
+  glslSandbox.load(glslCode[cases]);
 }
 
 onMounted(() => {
-
-  function createScript() {
-    if (window.document) {
-      const oScript = window.document.createElement('script');
-      oScript.type = 'text/javascript';
-      oScript.src = './local-cdn/glslCanvas@0.2.5.min.js';
-      document.body.appendChild(oScript);
-      oScript.addEventListener('load', initCanvas);
-    }
-  }
-  createScript();
-
-  function initCanvas() {
-    const c = canvasRef.value;
-    const width = canvasWrapperRef.value.offsetWidth;
-    const height = canvasWrapperRef.value.offsetHeight;
-    c.width = width;
-    c.height = width > height ? width / 2.4 : width;
-    sandbox = new GlslCanvas(c);
-    sandbox.load(glslCode2);
+  const elementGLSL = document.getElementById("glslScript")
+  if(elementGLSL){
+    elementGLSL.remove();
   }
 
-  window.addEventListener("resize", () => {
-    sandbox.destroy();
-    initCanvas();
-  })
+  if (typeof window !== 'undefined') {
+    loadGlsl();
+  } 
 
+  if (typeof window !== 'undefined' && (initCode.value == 1 || !once)) {
+    window.addEventListener("resize", glslResize)
+  }
+
+  const destroyCanvas = () => {
+    glslSandbox?.destroy();
+  }
 })
+
+
+
 </script>
 
 <style scoped>
+.glsl-wrapper {
+  overflow: hidden;
+  margin: 24px auto;
+}
 .canvas-wrapper {
   position: fixed;
   top: 0;

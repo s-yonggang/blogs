@@ -114,7 +114,7 @@ void main(){
   vec3 color = vec3(uv.xy, 0.0);
   color.z += 0.5;
   color = normalize(color);
-  color -= 0.1 * vec3(0.0, 0.0, u_time/2.0);
+  color -= 0.1 * vec3(0.0, 0.0, u_time/4.0);
   float angle = -log2(length(uv)); // log base 0.5
   color = rotateZ( color, angle );
   

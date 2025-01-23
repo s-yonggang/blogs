@@ -1,9 +1,5 @@
-import glslCode1 from './wave-line'
-import glslCode2 from './black-hold'
-import glslCode3 from './white-drop'
+import case0 from './wave-line'
+import case1 from './black-hold'
+import case2 from './white-drop'
 
-export {
-  glslCode1,
-  glslCode2,
-  glslCode3
-}
+export default [case0, case1, case2]

@@ -1,6 +1,7 @@
 # glsl 示例
 
-<GLSLCanvas code ="111" />
+<GLSLCanvas :ratioHeight="2.0" cases="0"/>
 
+<!-- <GLSLCanvas :ratioHeight="2.0" cases="1"/>
 
-<!-- <GLSLCanvas /> -->
+<GLSLCanvas :ratioHeight="2.0" cases="2"/> -->
