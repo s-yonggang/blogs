@@ -1,10 +1,10 @@
 ---
 layout: home
 
-# hero:
-#   name: Blog
-#   text: ...
-#   tagline: 世间美妙的事物有很多，其中要数编程和数学。
+hero:
+  name: Blog
+  text: ...
+  tagline: 世间美妙的事物有很多，其中要数编程和数学。
 #   image:
 #     src: /bg.jpg
 #     alt: VitePress
