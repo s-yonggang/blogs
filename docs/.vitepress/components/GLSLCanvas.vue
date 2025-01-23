@@ -5,55 +5,50 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { ref, onMounted } from 'vue';
-import glslCanvas from 'glslCanvas';
+// import glslCanvas from 'glslCanvas';
 import { glslCode1, glslCode2, glslCode3 } from '../GLSL/index';
 
-// const { code } = defineProps(["code"]);
-let initCode:boolean = sessionStorage.getItem("initCode") || 1;
-sessionStorage.setItem("initCode", initCode)
+let sandbox = null;
+const canvasRef = ref(null);
+const canvasWrapperRef = ref(null);
 
-let myShader = null;
-const canvasRef = ref<any>(null);
-const canvasWrapperRef = ref<any>(null);
+function onTransmission() {
+  sandbox.destroy();
+  canvasWrapperRef.value.style.opacity = 0;
+  canvasWrapperRef.value.style.zIndex = -99;
+}
 
 onMounted(() => {
+
+  function createScript() {
+    if (window.document) {
+      const oScript = window.document.createElement('script');
+      oScript.type = 'text/javascript';
+      oScript.src = './local-cdn/glslCanvas@0.2.5.min.js';
+      document.body.appendChild(oScript);
+      oScript.addEventListener('load', initCanvas);
+    }
+  }
+  createScript();
+
   function initCanvas() {
     const c = canvasRef.value;
     const width = canvasWrapperRef.value.offsetWidth;
     const height = canvasWrapperRef.value.offsetHeight;
     c.width = width;
     c.height = width > height ? width / 2.4 : width;
-    myShader = null;
-    myShader = new glslCanvas(canvasRef.value);
-    myShader.load(glslCode2);
-  }
-
-  if (initCode==1) {
-    initCanvas()
-  }
-
-  if (initCode==2) {
-    canvasWrapperRef.value.style.opacity = 0;
-    canvasWrapperRef.value.style.zIndex = -99;
+    sandbox = new GlslCanvas(c);
+    sandbox.load(glslCode2);
   }
 
   window.addEventListener("resize", () => {
-    myShader.destroy();
+    sandbox.destroy();
     initCanvas();
   })
+
 })
-
-function onTransmission() {
-  initCode = 2;
-  sessionStorage.setItem("initCode", initCode)
-  myShader.destroy();
-  canvasWrapperRef.value.style.opacity = 0;
-  canvasWrapperRef.value.style.zIndex = -99;
-}
-
-// const { color } = defineProps(["colors"]);
 </script>
 
 <style scoped>
