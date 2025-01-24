@@ -1,6 +1,6 @@
 # GlslEditor 示例
 
-<GlslEditor />
+<GlslEditors />
 
 <!-- <GLSLCanvas :ratioHeight="2.0" cases="1"/>
 

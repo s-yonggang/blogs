@@ -9,7 +9,7 @@ import Tag from '../components/Tag.vue'
 import CardList from '../components/CardList.vue'
 import Banner from '../components/Banner.vue'
 import GlslViews from '../components/GlslViews.vue'
-import GlslEditor from '../components/GlslEditor.vue'
+import GlslEditors from '../components/GlslEditors.vue'
 
 import Layout from './Layout.vue'
 
@@ -37,7 +37,7 @@ export default {
     app.component('CardList', CardList)
     app.component('Banner', Banner)
     app.component('GlslViews', GlslViews)
-    app.component('GlslEditor', GlslEditor)
+    app.component('GlslEditors', GlslEditors)
   },
   setup() {
     const route = useRoute()
