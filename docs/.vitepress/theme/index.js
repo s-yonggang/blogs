@@ -8,7 +8,7 @@ import Lines from '../components/Lines.vue'
 import Tag from '../components/Tag.vue'
 import CardList from '../components/CardList.vue'
 import Banner from '../components/Banner.vue'
-import GlslCanvas from '../components/GlslCanvas.vue'
+import GlslCanvas from '../components/Demo.vue'
 import GlslEditor from '../components/GlslEditor.vue'
 
 import Layout from './Layout.vue'

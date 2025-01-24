@@ -30,7 +30,7 @@ const navBar = [
             {
                 items: [
                     { text: 'Svg', link: '/3DVisualization/svg/' },
-                    { text: 'Canvas', link: '/3DVisualization/Canvas/' }
+                    { text: 'Canvas', link: '/3DVisualization/canvas/' }
                 ]
             }
         ]
