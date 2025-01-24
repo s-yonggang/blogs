@@ -17,7 +17,6 @@
 <script setup>
 const { data } = defineProps(["data"]);
 function onClick(item) {
-  console.log(item.link)
   window.open(item.link)
 }
 </script>
@@ -26,7 +25,8 @@ function onClick(item) {
 .card-list {
   padding: 0 24px;
   width: 100%;
-  margin-bottom: 48px;
+  margin: 48px 0;
+  overflow: hidden;
 }
 
 .card-list h2 {
@@ -85,28 +85,28 @@ function onClick(item) {
 
 @media (min-width: 180px) {
   .item-wrap {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 }
 
 @media (min-width: 480px) {
   .item-wrap {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
   }
 }
 
 @media (min-width: 640px) {
   .item-wrap {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
   }
 }
 
 @media (min-width: 960px) {
   .item-wrap {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 24px;
   }
 }

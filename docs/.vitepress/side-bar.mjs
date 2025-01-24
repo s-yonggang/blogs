@@ -7,7 +7,8 @@ const sideBar = {
                 { text: 'color组件', link: '/components/color' },
                 { text: 'Line组件', link: '/components/line' },
                 { text: '数学公式', link: '/components/maths' },
-                { text: 'shader插件', link: '/components/glsl' },
+                { text: 'glslCanvas插件', link: '/components/glsl-canvas' },
+                { text: 'glslEditor插件', link: '/components/glsl-editor' },
             ]
         }
     ],

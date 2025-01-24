@@ -1,5 +1,6 @@
 const navBar = [
     { text: '首页', link: '/' },
+    { text: '文档组件', link: '/components/index' },
     // { text: 'Examples', link: '/markdown-examples' },
 
     // {
@@ -66,7 +67,7 @@ const navBar = [
             { text: '设计模式', link: '/design-patterns/index' },
         ]
     },
-    { text: '文档组件', link: '/components/index' },
+
 ]
 
 export { navBar }

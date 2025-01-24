@@ -14,7 +14,7 @@ const { title, message } = defineProps(["title", "message"]);
 <style scoped>
 .banner-wrapper {
   width: 100%;
-  height: 30vh;
+  height: 20vh;
   background-color: var(--vp-code-tab-bg);
 }
 .banner-content {

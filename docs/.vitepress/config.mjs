@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { navBar } from './nav-bar.mjs'
 import { sideBar } from './side-bar.mjs'
+import { resolve } from 'path'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Blog",
@@ -29,9 +31,34 @@ export default defineConfig({
     },
   },
   vite: {
-    // Vite 配置选项
-    // define: {
-    //   global: "window",
-    // },
+    plugins: [
+      // 你的 Vite 插件
+    ],
+    resolve: {
+      alias: {
+        // 你的别名配置
+        '@': resolve(__dirname, '.vitepress')
+      },
+    },
+    server: {
+      port: 5173,
+      open: true
+    },
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: (id) => {
+            if (id.includes('node_modules')) {
+              return 'vendor'
+            }
+            // console.log(/\.png$/.test(id)) 
+            // if () {
+            //   return 'images'
+            // }
+          }
+        }
+
+      }
+    }
   }
 })

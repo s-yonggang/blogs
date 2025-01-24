@@ -34,14 +34,17 @@ const onEnter = () => {
 }
 
 function glslResize() {
-  glslSandbox?.destroy();
-  initCanvas();
+  if(typeof glslSandbox !== undefined && canvasWrapperRef.value){
+    glslSandbox?.destroy();
+    initCanvas();
+  }
 }
 
 function loadGlsl() {
   gScript = window.document.createElement('script');
   gScript.type = 'text/javascript';
-  gScript.src = '/local-cdn/glslCanvas@0.2.5.min.js';
+  // gScript.src = '/local-cdn/glslCanvas@0.2.5.min.js';
+  gScript.src = "https://cdn.jsdelivr.net/npm/glslCanvas@0.2.6/dist/GlslCanvas.min.js"
   gScript.id = glslId;
   document.body.appendChild(gScript);
   gScript.addEventListener('load', () => {
@@ -79,8 +82,6 @@ onMounted(() => {
     glslSandbox?.destroy();
   }
 })
-
-
 
 </script>
 
