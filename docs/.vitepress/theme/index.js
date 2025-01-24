@@ -8,7 +8,7 @@ import Lines from '../components/Lines.vue'
 import Tag from '../components/Tag.vue'
 import CardList from '../components/CardList.vue'
 import Banner from '../components/Banner.vue'
-import GlslCanvas from '../components/Demo.vue'
+import GlslViews from '../components/GlslViews.vue'
 import GlslEditor from '../components/GlslEditor.vue'
 
 import Layout from './Layout.vue'
@@ -36,7 +36,7 @@ export default {
     app.component('Tag', Tag)
     app.component('CardList', CardList)
     app.component('Banner', Banner)
-    app.component('GlslCanvas', GlslCanvas)
+    app.component('GlslViews', GlslViews)
     app.component('GlslEditor', GlslEditor)
   },
   setup() {

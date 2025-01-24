@@ -2,7 +2,7 @@
 layout: home
 ---
 <Banner title="世间美妙的事物有很多，其中要数编程和数学。"/>
-<GlslCanvas once="once" :ratioHeight="2.0" cases="1"/>
+<GlslViews once="once" :ratioHeight="2.0" cases="1"/>
 
 <card-list :data="[
   {img:'./thumbnail/three-demo1.png',title:'',link: 'https://s-yonggang.github.io/s-three/#/modelControl'},
