@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "clipboard": "^2.0.11",
+    "glslCanvas": "^0.2.6",
     "markdown-it": "^14.1.0",
     "markdown-it-mathjax3": "^4.3.2",
     "medium-zoom": "^1.1.0"

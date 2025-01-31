@@ -15,25 +15,30 @@ const sideBar = {
 
     '/explore/': [
         {
+            text: '疑难杂症',
+            items: [
+                { text: '版本问题', link: '/explore/index' },
+                { text: '缓存问题', link: '/explore/1-1' },
+                { text: 'declare', link: '/explore/1-3' },
+            ]
+
+        },
+        {
+            text: '个人感悟',
+            items: [
+                { text: '大道不该如此之小', link: '/explore/2-1' },
+            ]
+        },
+        {
             text: '探索',
             items: [
-                { text: '概述', link: '/explore/index' },
-                { text: 'explore', link: '/explore/1-1.md' },
+                { text: '方向', link: '/explore/3-1' },
+                // { text: '思维、方向', link: '/explore/3-2' },
                 // { text: 'Line组件', link: '/trials/line' }
             ]
-        }
-    ],
 
-    // '/magic/': [
-    //     {
-    //         text: '功法神通',
-    //         items: [
-    //             { text: '概述', link: '/magic/index' },
-    //             { text: 'Github Action', link: '/magic/1-1' },
-    //             // { text: 'Line组件', link: '/magic/line' }
-    //         ]
-    //     }
-    // ],
+        },
+    ],
 
     '/data-structure/': [
         {

@@ -1,6 +1,8 @@
 const navBar = [
-    { text: '首页', link: '/' },
-    { text: '文档组件', link: '/components/index' },
+    // { text: '首页', link: '/' },
+    {
+        text: '基础组件', link: '/components/index'
+    },
     // { text: 'Examples', link: '/markdown-examples' },
 
     // {
@@ -41,6 +43,7 @@ const navBar = [
             { text: '基础核心', link: '/web-core/base/' },
             { text: '函数编程', link: '/web-core/advanced/' },
             { text: 'ES+规范', link: '/web-core/es6/' },
+            { text: '疑难杂症', link: '/explore/index' },
         ]
     },
     {

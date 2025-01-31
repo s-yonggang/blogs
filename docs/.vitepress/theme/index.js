@@ -2,11 +2,14 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
+
+import IconFont from '../components/IconFont.vue'
 import Color from '../components/Color.vue'
 import ColorList from '../components/ColorList.vue'
 import Lines from '../components/Lines.vue'
 import Tag from '../components/Tag.vue'
 import CardList from '../components/CardList.vue'
+import ListItem from '../components/ListItem.vue'
 import Banner from '../components/Banner.vue'
 import GlslViews from '../components/GlslViews.vue'
 import GlslEditors from '../components/GlslEditors.vue'
@@ -38,6 +41,8 @@ export default {
     app.component('Banner', Banner)
     app.component('GlslViews', GlslViews)
     app.component('GlslEditors', GlslEditors)
+    app.component('ListItem', ListItem)
+    app.component('IconFont', IconFont)
   },
   setup() {
     const route = useRoute()

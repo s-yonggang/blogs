@@ -5,11 +5,11 @@ import { resolve } from 'path'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Blog",
+  title: "Home",
   description: "My Blog",
   assetsDir: 'static',
   base: '/blogs/',
-  lastUpdated: true,
+  // lastUpdated: true,
   returnToTopLabel: true,
   markdown: {
     math: true
@@ -42,7 +42,7 @@ export default defineConfig({
     },
     server: {
       port: 5173,
-      open: true
+      // open: true
     },
     build: {
       rollupOptions: {
