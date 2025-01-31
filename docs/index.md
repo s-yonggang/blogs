@@ -5,7 +5,7 @@ layout: home
 <!-- <GlslViews once="once" :ratioHeight="2.0" cases="1"/> -->
 
 <Banner title="世间美妙的事物有很多，其中要数编程和数学。"/>
-
+<ListItem url="https://s-yonggang.github.io/s-three/#/" text="shadertoy.com 案例"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-1" text="fragmentShader 基础图形绘制"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-2" text="vertexShader 动画"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/modelControl" text="按键控制模型移动(灯光、阴影、四元数方向控制"></ListItem>
