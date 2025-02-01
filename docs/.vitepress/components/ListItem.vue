@@ -13,7 +13,9 @@
 <script setup>
 const { url, text } = defineProps(["url", "text"]);
 function onClick() {
-  window.open(url)
+  if(typeof window !== 'undefined'){
+    window.open(url)
+  }
 }
 </script>
 

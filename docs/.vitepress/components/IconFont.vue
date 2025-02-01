@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import '//at.alicdn.com/t/c/font_4819577_0iusga50yb5c.js'
+import './iconfont.js'
 import { computed, defineProps } from 'vue'
 
 const props = defineProps({

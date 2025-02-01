@@ -6,7 +6,7 @@
 import { ref, onMounted } from "vue"
 let canvasEditorRef = ref(null);
 function createScript(src, callback) {
-  if (window.document) {
+  if (typeof window !== 'undefined') {
     const hasId = document.getElementById('glslEditorScriptId')
     hasId && hasId.remove();
     const newScript = window.document.createElement('script');
@@ -21,7 +21,7 @@ function createScript(src, callback) {
 }
 
 function createCSS(href, callback) {
-  if (window.document) {
+  if (typeof window !== 'undefined') {
     const hasId = document.getElementById('glslEditorStyleId')
     hasId && hasId.remove();
     const newLink = window.document.createElement('link');

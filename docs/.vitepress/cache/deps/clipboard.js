@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "./chunk-UXIASGQL.js";
+} from "./chunk-76J2PTFD.js";
 
 // node_modules/.pnpm/clipboard@2.0.11/node_modules/clipboard/dist/clipboard.js
 var require_clipboard = __commonJS({

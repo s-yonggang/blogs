@@ -1,62 +1,56 @@
 {
-  "hash": "49975ed3",
-  "browserHash": "2a073667",
+  "hash": "dc8445b3",
+  "browserHash": "f9402a79",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@https+++registry.npmmirror.com+vue+-+vue-3.3.4.tgz/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a6ef2679",
+      "fileHash": "e7cd4a5f",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@https+++registry.npmmirror.com+@vue+devtools-api+-+devtools-api-6.5.0.tgz/node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "85486ef7",
+      "fileHash": "6d80ebe6",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/.pnpm/@vueuse+integrations@https+++registry.npmmirror.com+@vueuse+integrations+-+integrations-10.5._hzdsavedxsdvcbiiclza2at3su/node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "05f6f8b2",
+      "fileHash": "3431870e",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/.pnpm/mark.js@https+++registry.npmmirror.com+mark.js+-+mark.js-8.11.1.tgz/node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "e09b0f3b",
+      "fileHash": "0b761a0e",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/.pnpm/minisearch@https+++registry.npmmirror.com+minisearch+-+minisearch-6.1.0.tgz/node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "a8005e95",
+      "fileHash": "a9c56653",
       "needsInterop": false
     },
     "medium-zoom": {
       "src": "../../../../node_modules/.pnpm/medium-zoom@1.1.0/node_modules/medium-zoom/dist/medium-zoom.esm.js",
       "file": "medium-zoom.js",
-      "fileHash": "dd631d93",
+      "fileHash": "54fa654b",
       "needsInterop": false
     },
     "clipboard": {
       "src": "../../../../node_modules/.pnpm/clipboard@2.0.11/node_modules/clipboard/dist/clipboard.js",
       "file": "clipboard.js",
-      "fileHash": "ff084e93",
+      "fileHash": "bb4b3c4e",
       "needsInterop": true
-    },
-    "GlslCanvas": {
-      "src": "../../../../node_modules/.pnpm/glslCanvas@0.2.6_m3q7vsdrftwzhkwk3rjrznqtja/node_modules/glslCanvas/dist/GlslCanvas.es.js",
-      "file": "GlslCanvas.js",
-      "fileHash": "1631352e",
-      "needsInterop": false
     }
   },
   "chunks": {
     "chunk-WAZFQREI": {
       "file": "chunk-WAZFQREI.js"
     },
-    "chunk-UXIASGQL": {
-      "file": "chunk-UXIASGQL.js"
+    "chunk-76J2PTFD": {
+      "file": "chunk-76J2PTFD.js"
     }
   }
 }
