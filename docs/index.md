@@ -5,7 +5,7 @@ layout: home
 <!-- <GlslViews once="once" :ratioHeight="2.0" cases="1"/> -->
 
 <Banner title="世间美妙的事物有很多，其中要数编程和数学。"/>
-<ListItem url="https://s-yonggang.github.io/s-three/#/" text="shadertoy.com 案例"></ListItem>
+<!-- <ListItem url="https://s-yonggang.github.io/s-three/#/" text="shadertoy.com 案例"></ListItem> -->
 <ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-1" text="fragmentShader 基础图形绘制"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-2" text="vertexShader 动画"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/modelControl" text="按键控制模型移动(灯光、阴影、四元数方向控制"></ListItem>
@@ -15,6 +15,7 @@ layout: home
 <ListItem url="https://s-yonggang.github.io/s-three/#/gpuPoint" text="PGU 模型粒子化渲染"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/customizeShader1" text="自定义shader"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/accelerate-the-drive" text="自定义shader、函数造型、noise噪声函数生成随机山脉、MeshLine飞线"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/fresnel" text="菲涅尔shader效果 大佬分享学习"></ListItem>
 
 <ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-1" text="canvas 取模、取余"></ListItem>
 <ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-2" text="canvas 矩阵平移、变换、缩放"></ListItem>
