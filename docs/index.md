@@ -14,7 +14,7 @@ layout: home
 <ListItem url="https://s-yonggang.github.io/s-three/#/eclipse" text="天空盒背景、光、阴影、自定义顶点shader及同步的shader阴影"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/gpuPoint" text="PGU 模型粒子化渲染"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/customizeShader1" text="自定义shader"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/customizeShader1" text="自定义shader"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/accelerate-the-drive" text="自定义shader、函数造型、noise噪声函数生成随机山脉、MeshLine飞线"></ListItem>
 
 <ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-1" text="canvas 取模、取余"></ListItem>
 <ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-2" text="canvas 矩阵平移、变换、缩放"></ListItem>
