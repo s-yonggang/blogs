@@ -20,6 +20,7 @@ const sideBar = {
                 { text: '版本问题', link: '/explore/index' },
                 { text: '缓存问题', link: '/explore/1-1' },
                 { text: 'declare', link: '/explore/1-3' },
+                { text: 'TS Dom元素类型', link: '/explore/1-4' },
             ]
 
         },
