@@ -18,7 +18,6 @@ layout: home
 <ListItem url="https://s-yonggang.github.io/s-three/#/accelerate-the-drive" text="自定义shader、函数造型、noise噪声函数生成随机山脉、MeshLine飞线"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/fresnel" text="菲涅尔shader效果 大佬分享学习"></ListItem>
 
-
 <ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-1" text="canvas 取模、取余"></ListItem>
 <ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-2" text="canvas 矩阵平移、变换、缩放"></ListItem>
 <ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-3" text="canvas 随机数"></ListItem>

@@ -323,12 +323,12 @@ const sideBar = {
             text: 'three',
             collapsed: false,
             items: [
-                { text: 'DOM', link: '/web-core/base/3-2' },
-                { text: 'BOM', link: '/web-core/base/3-3' },
-                { text: 'Web Workers', link: '/web-core/base/3-4' },
-                { text: 'Web Storage', link: '/web-core/base/3-5' },
-                { text: 'Websockets', link: '/web-core/base/3-6' },
-                { text: 'WebRTC', link: '/web-core/base/3-7' },
+                { text: 'Web Workers', link: '/web-core/base/3-1' },
+                { text: 'Service Workers', link: '/web-core/base/3-5' },
+                { text: 'Web Storage', link: '/web-core/base/3-2' },
+        
+                // { text: 'Websockets', link: '/web-core/base/3-3' },
+                // { text: 'WebRTC', link: '/web-core/base/3-4' },
             ]
         },
         {
