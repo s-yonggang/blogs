@@ -28,6 +28,7 @@ const sideBar = {
             text: '个人感悟',
             items: [
                 { text: '大道不该如此之小', link: '/explore/2-1' },
+                { text: '研发之路', link: '/explore/2-2' },
             ]
         },
         {
@@ -389,6 +390,7 @@ const sideBar = {
                 { text: '组合函数', link: '/web-core/advanced/1-5' },
                 { text: '链式调用', link: '/web-core/advanced/1-6' },
                 { text: '防抖节流', link: '/web-core/advanced/1-7' },
+                { text: '递归', link: '/web-core/advanced/1-9' }
             ]
         },
     ],
