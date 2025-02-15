@@ -17,7 +17,9 @@ layout: home
 <ListItem url="https://s-yonggang.github.io/s-three/#/customizeShader1" text="自定义shader"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/accelerate-the-drive" text="自定义shader、函数造型、noise噪声函数生成随机山脉、MeshLine飞线"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/fresnel" text="菲涅尔shader效果"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/offscreen-canvas" text="性能优化--使用web worker离屏渲染、深入学习ing..."></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/offscreen-canvas" text="性能优化—————web worker + 离屏渲染(深入学习ing)..."></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/offscreen-canvas" text="性能优化—————positionHelper = lonHelper + latHelper、BufferGeometryUtils.mergeGeometries合并、Tween缓冲动画"></ListItem>
+
 
 <ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-1" text="canvas 取模、取余"></ListItem>
 <ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-2" text="canvas 矩阵平移、变换、缩放"></ListItem>
