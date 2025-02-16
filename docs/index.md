@@ -6,27 +6,27 @@ layout: home
 
 <Banner title="世间美妙的事物有很多，其中要数编程和数学。"/>
 <ListItem url="https://s-yonggang.github.io/s-three/#/" text="WebRTC 共享屏幕"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/webrtc-texture" text="WebRTC 视频 作为 texture、实时同步"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-1" text="fragmentShader 基础图形绘制"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-2" text="vertexShader 动画"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/modelControl" text="按键控制模型移动(灯光、阴影、四元数方向控制"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/modelviewer" text="材质、动画切换)"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/particle" text="模型粒子化、模型粒子切换、thress.js+gsap动画"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/eclipse" text="天空盒背景、光、阴影、自定义顶点shader及同步的shader阴影"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/gpuPoint" text="PGU 模型粒子化渲染"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/customizeShader1" text="自定义shader"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/accelerate-the-drive" text="自定义shader、函数造型、noise噪声函数生成随机山脉、MeshLine飞线"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/fresnel" text="菲涅尔shader效果"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/indexed-textures1" text="ele元素对应3D对象"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/indexed-textures2" text="纹理索引来拾取和着色"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/offscreen-canvas" text="性能优化———web worker + 离屏渲染(深入学习ing)..."></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/optimize-Object1" text="性能优化———positionHelper = lonHelper + latHelper、BufferGeometryUtils.mergeGeometries合并"></ListItem>
-<ListItem url="https://s-yonggang.github.io/s-three/#/optimize-Object2" text="性能优化———Tween缓冲动画"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/webrtc-texture" text="three.js-WebRTC 视频 作为 texture、实时同步"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/modelControl" text="three.js-按键控制模型移动 灯光、阴影、四元数、第三人称视角"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/modelviewer" text="three.js-材质、骨骼动画"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/particle" text="three.js-模型粒子化、模型粒子切换、gsap动画"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/eclipse" text="three.js-天空盒背景、光、阴影、自定义顶点shader及同步的shader阴影"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/gpuPoint" text="three.js-PGU 模型粒子化渲染"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/customizeShader1" text="three.js-自定义shader"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/accelerate-the-drive" text="three.js-自定义shader、函数造型、noise噪声函数生成随机山脉、MeshLine飞线"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/fresnel" text="three.js-菲涅尔shader效果"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/indexed-textures1" text="three.js-ele元素对应3D对象"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/indexed-textures2" text="three.js-纹理索引来拾取和着色"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/offscreen-canvas" text="three.js-性能优化———web worker + 离屏渲染(深入学习ing)..."></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/optimize-Object1" text="three.js-性能优化———positionHelper = lonHelper + latHelper、BufferGeometryUtils.mergeGeometries合并"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/optimize-Object2" text="three.js-性能优化———Tween缓冲动画"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-1" text="three.js-fragmentShader 基础图形绘制"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-2" text="three.js-vertexShader 动画"></ListItem>
 
-<ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-1" text="canvas 取模、取余"></ListItem>
-<ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-2" text="canvas 矩阵平移、变换、缩放"></ListItem>
-<ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-3" text="canvas 随机数"></ListItem>
-<ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-4" text="canvas 自定义个性文字"></ListItem>
+<ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-1" text="canvas-取模、取余"></ListItem>
+<ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-2" text="canvas-矩阵平移、变换、缩放"></ListItem>
+<ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-3" text="canvas-随机数"></ListItem>
+<ListItem url="https://s-yonggang.github.io/magic-canvas/#/demo-4" text="canvas-自定义个性文字"></ListItem>
 
 <!-- <card-list :data="[
   {img:'./thumbnail/three-demo1.png',title:'',link: 'https://s-yonggang.github.io/s-three/#/modelControl'},
