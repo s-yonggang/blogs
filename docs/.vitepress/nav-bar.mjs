@@ -31,6 +31,11 @@ const navBar = [
             },
             {
                 items: [
+                    { text: 'cesium', link: '/3DVisualization/cesium/' },
+                ]
+            },
+            {
+                items: [
                     { text: 'Svg', link: '/3DVisualization/svg/' },
                     { text: 'Canvas', link: '/3DVisualization/canvas/' }
                 ]

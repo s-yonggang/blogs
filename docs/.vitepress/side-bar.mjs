@@ -274,6 +274,15 @@ const sideBar = {
         }
     ],
 
+    '/3DVisualization/cesium/': [
+        {
+            text: 'cesium',
+            items: [
+                { text: '概述', link: '/3DVisualization/cesium/' },
+            ]
+        }
+    ],
+
     '/3DVisualization/svg/': [
         {
             text: 'SVG',
@@ -285,6 +294,7 @@ const sideBar = {
             text: 'Canvas',
         }
     ],
+
 
     '/web-core/base/': [
         {
@@ -327,7 +337,7 @@ const sideBar = {
                 { text: 'Web Workers', link: '/web-core/base/3-1' },
                 { text: 'Service Workers', link: '/web-core/base/3-5' },
                 { text: 'Web Storage', link: '/web-core/base/3-2' },
-        
+
                 // { text: 'Websockets', link: '/web-core/base/3-3' },
                 // { text: 'WebRTC', link: '/web-core/base/3-4' },
             ]
