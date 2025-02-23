@@ -39,15 +39,15 @@ const sideBar = {
                 // { text: '高频面试', link: '/trials/line' }
             ]
         },
-        // {
-        //     text: '高频面试',
-        //     items: [
-        //         { text: 'HTTP相关', link: '/explore/4-1' },
-        //         { text: 'HTML相关', link: '/explore/4-2' },
-        //         { text: 'CSS相关', link: '/explore/4-3' },
-        //         // { text: '高频面试', link: '/trials/line' }
-        //     ]
-        // },
+        {
+            text: '高频面试',
+            items: [
+                { text: 'HTTP相关', link: '/explore/4-1' },
+                { text: 'HTML相关', link: '/explore/4-2' },
+                { text: 'CSS相关', link: '/explore/4-3' },
+                // { text: '高频面试', link: '/trials/line' }
+            ]
+        },
     ],
 
     '/data-structure/': [
