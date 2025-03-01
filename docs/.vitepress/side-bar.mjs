@@ -222,15 +222,15 @@ const sideBar = {
             text: 'THREE-Geometry',
             collapsed: true,
             items: [
-                { text: 'BufferGeometry', link: '3DVisualization/threejs/BufferGeometry' },
-                { text: 'Point', link: '3DVisualization/threejs/point' },
-                { text: 'Curve', link: '3DVisualization/threejs/line' },
-                { text: 'Path', link: '3DVisualization/threejs/path' },
-                { text: 'Shape', link: '3DVisualization/threejs/shape' },
-                { text: 'ShapeGeometry', link: '3DVisualization/threejs/shapeGeometry' },
-                { text: 'ExtrudeGeometry', link: '3DVisualization/threejs/ExtrudeGeometry' },
-                { text: 'TubeGeometry', link: '3DVisualization/threejs/TubeGeometry' },
-                { text: 'LatheGeometry', link: '3DVisualization/threejs/LatheGeometry' }
+                { text: 'BufferGeometry', link: '3DVisualization/threejs/geo/BufferGeometry' },
+                { text: 'Point', link: '3DVisualization/threejs/geo/point' },
+                { text: 'Curve', link: '3DVisualization/threejs/geo/line' },
+                { text: 'Path', link: '3DVisualization/threejs/geo/path' },
+                { text: 'Shape', link: '3DVisualization/threejs/geo/shape' },
+                { text: 'ShapeGeometry', link: '3DVisualization/threejs/geo/shapeGeometry' },
+                { text: 'ExtrudeGeometry', link: '3DVisualization/threejs/geo/ExtrudeGeometry' },
+                { text: 'TubeGeometry', link: '3DVisualization/threejs/geo/TubeGeometry' },
+                { text: 'LatheGeometry', link: '3DVisualization/threejs/geo/LatheGeometry' }
             ]
         },
         {
@@ -267,7 +267,18 @@ const sideBar = {
                 { text: 'Three', link: '/config/three' },
                 { text: 'Four', link: '/config/four' }
             ]
+        },
+        {
+            text: 'THREE-Mesh-BVH',
+            // collapsed: true,
+            items: [
+                { text: '什么是BVH', link: '3DVisualization/threejs/bvh/index' },
+                { text: 'MeshBVH', link: '3DVisualization/threejs/bvh/meshBVH' },
+                // { text: 'BVHLoader', link: '3DVisualization/threejs/bvh/BVHLoader' },
+                // { text: 'BVHExporter', link: '3DVisualization/threejs/bvh/BVHExporter' },
+            ]
         }
+
     ],
 
     '/3DVisualization/babylonjs/': [

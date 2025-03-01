@@ -25,7 +25,7 @@ const navBar = [
             {
                 items: [
                     { text: 'GLSL-es', link: '/3DVisualization/glsl-es/' },
-                    // { text: 'threeJs', link: '/3DVisualization/threejs/' },
+                    { text: 'threeJs', link: '/3DVisualization/threejs/' },
                     // { text: 'babylonJs', link: '/3DVisualization/babylonjs/' },
                 ]
             },

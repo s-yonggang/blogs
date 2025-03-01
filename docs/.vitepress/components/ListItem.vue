@@ -5,7 +5,7 @@
       <icon-font iconName="icon-yanjing" class="open-yey"></icon-font>
     </div>
     <div class="item-right">
-      <span @click="onClick">{{ text }}</span>
+      <div @click="onClick">{{ text }}</div>
     </div>
   </div>
 </template>
@@ -13,7 +13,7 @@
 <script setup>
 const { url, text } = defineProps(["url", "text"]);
 function onClick() {
-  if(typeof window !== 'undefined'){
+  if (typeof window !== 'undefined') {
     window.open(url)
   }
 }
@@ -40,6 +40,11 @@ function onClick() {
 
 .list-item-wrapper:hover .open-yey {
   display: block;
+  margin-left: -10px;
+}
+
+.list-item-wrapper:hover .item-right>div {
+  text-decoration: underline;
 }
 
 .item-left {
@@ -48,18 +53,27 @@ function onClick() {
   align-items: center;
   /* color: var(--vp-c-text-1); */
   cursor: pointer;
+
 }
 
 .item-right {
   display: flex;
   padding-left: 10px;
   align-items: center;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   /* background-color: antiquewhite; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.item-right span {
+.item-right>div {
+  width: 100%;
   cursor: pointer;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 
