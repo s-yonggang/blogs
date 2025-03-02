@@ -228,3 +228,7 @@ body::-webkit-scrollbar-track,
   box-shadow: 10px 10px 8px #123;
   border-radius: 4px;
 }
+
+.VPNavBarSearch {
+  flex-grow: 0;
+}

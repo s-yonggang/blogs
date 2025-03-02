@@ -226,8 +226,8 @@ const sideBar = {
                 { text: 'Point', link: '3DVisualization/threejs/geo/point' },
                 { text: 'Curve', link: '3DVisualization/threejs/geo/line' },
                 { text: 'Path', link: '3DVisualization/threejs/geo/path' },
-                { text: 'Shape', link: '3DVisualization/threejs/geo/shape' },
-                { text: 'ShapeGeometry', link: '3DVisualization/threejs/geo/shapeGeometry' },
+                { text: 'Shape', link: '3DVisualization/threejs/geo/Shape' },
+                { text: 'ShapeGeometry', link: '3DVisualization/threejs/geo/ShapeGeometry' },
                 { text: 'ExtrudeGeometry', link: '3DVisualization/threejs/geo/ExtrudeGeometry' },
                 { text: 'TubeGeometry', link: '3DVisualization/threejs/geo/TubeGeometry' },
                 { text: 'LatheGeometry', link: '3DVisualization/threejs/geo/LatheGeometry' }
