@@ -204,7 +204,7 @@ const sideBar = {
         },
         {
             text: 'The Book of Shaders',
-            collapsed: true,
+            // collapsed: true,
             items: [
                 { text: '片元着色器', link: '/3DVisualization/glsl-es/3-1' },
                 { text: '基础要点', link: '/3DVisualization/glsl-es/3-2' },
@@ -220,7 +220,7 @@ const sideBar = {
     '/3DVisualization/threejs/': [
         {
             text: 'THREE-Geometry',
-            collapsed: true,
+            // collapsed: true,
             items: [
                 { text: 'BufferGeometry', link: '3DVisualization/threejs/geo/BufferGeometry' },
                 { text: 'Point', link: '3DVisualization/threejs/geo/point' },
@@ -235,7 +235,7 @@ const sideBar = {
         },
         {
             text: 'THREE-material',
-            collapsed: true,
+            // collapsed: true,
             items: [
                 { text: '材质', link: '3DVisualization/threejs/material/Material' },
                 { text: 'ShaderMaterial', link: '3DVisualization/threejs/material/ShaderMaterial' },
@@ -254,25 +254,41 @@ const sideBar = {
             text: 'THREE-Light',
             // collapsed: true,
             items: [
-                { text: '光/阴影', link: '/3DVisualization/threejs/LightAndShadow' },
+                { text: '光/阴影', link: '/3DVisualization/threejs/geo/LightAndShadow' },
                 // { text: 'Three', link: '/config/three' },
                 // { text: 'Four', link: '/config/four' }
             ]
         },
         {
-            text: 'THREE-Shadow',
+            text: 'THREE-性能优化',
             // collapsed: true,
             items: [
-                { text: 'Index', link: '/config/' },
-                { text: 'Three', link: '/config/three' },
-                { text: 'Four', link: '/config/four' }
+                { text: 'THREE优化篇', link: '/3DVisualization/threejs/optimizing/' },
+                { text: 'InstancedMesh', link: '/3DVisualization/threejs/optimizing/InstancedMesh' },
+                { text: 'BatchedMesh', link: '/3DVisualization/threejs/optimizing/BatchedMesh' },
+                { text: 'LOD', link: '/3DVisualization/threejs/optimizing/LOD' },
+                { text: '按需渲染', link: '/3DVisualization/threejs/optimizing/loop' },
+                { text: '合并几何体', link: '/3DVisualization/threejs/optimizing/mergeGeometries' },
+                { text: '离屏渲染', link: '/3DVisualization/threejs/optimizing/OffscreenCanvas' },
+                { text: 'GPU粒子系统', link: '/3DVisualization/threejs/optimizing/GPUParticleSystem' },
+                { text: 'Worker', link: '/3DVisualization/threejs/optimizing/worker' },                
+            ]
+        },
+        {
+            text: 'THREE-渲染质量效果篇',
+            // collapsed: true,
+            items: [
+                { text: 'Shader 着色器', link: '/3DVisualization/threejs/quality/index' }, 
+                { text: 'EdgeSplitModifier', link: '/3DVisualization/threejs/quality/EdgeSplitModifier' }, 
+                { text: 'EffectComposer', link: '/3DVisualization/threejs/quality/EffectComposer' },
+                { text: '光线追踪', link: '/3DVisualization/threejs/quality/EffectComposer' },
             ]
         },
         {
             text: 'THREE-Mesh-BVH',
             // collapsed: true,
             items: [
-                { text: '什么是BVH', link: '3DVisualization/threejs/bvh/index' },
+                { text: 'BVH', link: '3DVisualization/threejs/bvh/index' },
                 { text: 'MeshBVH', link: '3DVisualization/threejs/bvh/MeshBVH' },
                 // { text: 'BVHLoader', link: '3DVisualization/threejs/bvh/BVHLoader' },
                 // { text: 'BVHExporter', link: '3DVisualization/threejs/bvh/BVHExporter' },
