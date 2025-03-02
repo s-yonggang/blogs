@@ -273,7 +273,7 @@ const sideBar = {
             // collapsed: true,
             items: [
                 { text: '什么是BVH', link: '3DVisualization/threejs/bvh/index' },
-                { text: 'MeshBVH', link: '3DVisualization/threejs/bvh/meshBVH' },
+                { text: 'MeshBVH', link: '3DVisualization/threejs/bvh/MeshBVH' },
                 // { text: 'BVHLoader', link: '3DVisualization/threejs/bvh/BVHLoader' },
                 // { text: 'BVHExporter', link: '3DVisualization/threejs/bvh/BVHExporter' },
             ]

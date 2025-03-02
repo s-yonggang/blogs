@@ -1307,6 +1307,7 @@ function onObjectVisible(obj) {
   }
 }
 ```
+:::
 
 :::tip 注意
 1. 更新后必须重建：调用 disposeBoundsTree() 后，若未重新构建 computeBoundsTree()，射线检测将回退到原生未加速模式。
@@ -1328,7 +1329,6 @@ function disposeMesh(mesh) {
 - 切换 BVH 构建策略（如从 SAH 改为 CENTER）。
 :::
 
-:::
 ## 17. estimateMemoryInBytes
 用于估算 BVH（Bounding Volume Hierarchy）所占用的内存字节数。该函数通过遍历 BVH 对象，计算其各个部分所占用的内存大小，从而提供一个粗略的内存使用估算。
 
