@@ -23,6 +23,11 @@ layout: home
 <ListItem url="https://s-yonggang.github.io/s-three/#/offscreen-canvas" text="three.js-性能优化———web worker + 离屏渲染(深入学习ing)..."></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/optimize-Object1" text="three.js-性能优化———positionHelper = lonHelper + latHelper、BufferGeometryUtils.mergeGeometries合并"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/optimize-Object2" text="three.js-性能优化———Tween缓冲动画"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/point-clouds-intersection" text="three.js-点云、bvh层次结构、几何交集（补充ing）"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/mesh-BVH1" text="three.js-bvh层次结构、几何体相交检测"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/mesh-BVH2" text="three.js-bvh层次结构、AABB包围盒、几何体不相交、相交、包含检测"></ListItem>
+
+
 <ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-1" text="three.js-fragmentShader 基础图形绘制"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/shader-base-2" text="three.js-vertexShader 动画"></ListItem>
 
