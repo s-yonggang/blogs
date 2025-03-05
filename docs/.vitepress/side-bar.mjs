@@ -290,6 +290,7 @@ const sideBar = {
             items: [
                 { text: 'BVH', link: '3DVisualization/threejs/bvh/index' },
                 { text: 'MeshBVH', link: '3DVisualization/threejs/bvh/MeshBVH' },
+                { text: 'BVH基本使用', link: '3DVisualization/threejs/bvh/use-bvh' },
                 // { text: 'BVHLoader', link: '3DVisualization/threejs/bvh/BVHLoader' },
                 // { text: 'BVHExporter', link: '3DVisualization/threejs/bvh/BVHExporter' },
             ]
