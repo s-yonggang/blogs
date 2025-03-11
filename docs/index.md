@@ -11,6 +11,7 @@ layout: home
 <ListItem url="https://s-yonggang.github.io/s-three/#/mesh-BVH1" text="three.js-bvh层次结构、几何体相交检测"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/mesh-BVH2" text="three.js-bvh层次结构、AABB包围盒、几何体不相交、相交、包含检测"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/mesh-BVH3" text="three.js-bvh层次结构、模拟3D打印机械齿轮"></ListItem>
+<ListItem url="https://s-yonggang.github.io/s-three/#/mesh-BVH4" text="three.js-bvh层次结构、、射线"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/modelControl" text="three.js-按键控制模型移动 灯光、阴影、四元数、第三人称视角"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/modelviewer" text="three.js-材质、骨骼动画"></ListItem>
 <ListItem url="https://s-yonggang.github.io/s-three/#/particle" text="three.js-模型粒子化、模型粒子切换、gsap动画"></ListItem>
