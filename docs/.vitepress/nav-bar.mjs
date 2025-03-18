@@ -48,7 +48,16 @@ const navBar = [
             { text: '基础核心', link: '/web-core/base/' },
             { text: '函数编程', link: '/web-core/advanced/' },
             { text: 'ES+规范', link: '/web-core/es6/' },
-            { text: '疑难杂症', link: '/explore/index' },
+            {
+                items: [
+                    { text: 'RxJS', link: '/web-core/RxJS/' },
+                ]
+            },
+            {
+                items: [
+                    { text: '疑难杂症', link: '/explore/index' },
+                ]
+            }
         ]
     },
     {

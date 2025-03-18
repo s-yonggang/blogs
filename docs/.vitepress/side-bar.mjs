@@ -441,6 +441,23 @@ const sideBar = {
         },
     ],
 
+    
+    '/web-core/RxJS/': [
+        {
+            text: 'RxJS',
+            items: [
+                { text: '什么是RxJS', link: '/web-core/RxJS/index' },
+                { text: 'Observable', link: '/web-core/RxJS/1-1' },
+                { text: 'Observer', link: '/web-core/RxJS/1-2' },
+                { text: 'Subscription', link: '/web-core/RxJS/1-3' },
+                { text: 'Subject', link: '/web-core/RxJS/1-4' },
+                { text: 'Operators', link: '/web-core/RxJS/1-5' },
+                { text: 'Scheduler', link: '/web-core/RxJS/1-6' },
+            ]
+        },
+    ],
+
+
     '/tools/modular': [
         {
             text: '模块化',
