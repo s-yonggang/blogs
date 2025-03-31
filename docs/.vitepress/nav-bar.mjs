@@ -1,7 +1,19 @@
 const navBar = [
     // { text: '首页', link: '/' },
     {
-        text: '基础组件', link: '/components/index'
+        text: '用的连接',
+        items: [
+            {
+                items: [
+                    { text: '基础组件', link: '/components/index' },
+                ]
+            },
+            {
+                items: [
+                    { text: '有用的连接', link: '/magic-link/index' },
+                ]
+            },
+        ],
     },
     // { text: 'Examples', link: '/markdown-examples' },
 

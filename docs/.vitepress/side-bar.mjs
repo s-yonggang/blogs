@@ -12,7 +12,17 @@ const sideBar = {
             ]
         }
     ],
-
+    '/magic-link/': [
+        {
+            text: '有意思的连接',
+            items: [
+                { text: '概述', link: '/magic-link/index' },
+                { text: 'css连接', link: '/magic-link/css' },
+                { text: 'js连接', link: '/magic-link/js' },
+                { text: 'threeJs连接', link: '/magic-link/threeJs' },
+            ]
+        }
+    ],
     '/explore/': [
         {
             text: '疑难杂症',
@@ -475,9 +485,14 @@ const sideBar = {
             text: 'Typescript',
             items: [
                 { text: '概述', link: '/tools/typescript/index' },
-                { text: '语言类型', link: '/tools/typescript/1-1' },
-                { text: '基本类型', link: '/tools/typescript/1-2' },
+                { text: '类型系统', link: '/tools/typescript/1-1' },
+                { text: '作用及特性', link: '/tools/typescript/1-2' },
                 { text: '常用类型', link: '/tools/typescript/1-3' },
+                { text: '类型收缩', link: '/tools/typescript/1-4' },
+                { text: 'TS中的函数', link: '/tools/typescript/1-5' },
+                { text: 'TS中的对象', link: '/tools/typescript/1-6' },
+                { text: 'TS中的Class', link: '/tools/typescript/1-7' },
+                { text: '类型操作', link: '/tools/typescript/1-8' },
             ],
         }
     ],
